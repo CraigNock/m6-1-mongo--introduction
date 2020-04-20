@@ -108,7 +108,7 @@ Instead, let's write a utility function that will migrate all of the data for us
 2. Add/Install the [`file-system`](https://www.npmjs.com/package/file-system) module.
 3. Require it at the top of the `batchImport.js` file.
 4. Declare a variable and assign it the contents of `greetings.json` like so:
-
+ 
 ```js
 const greetings = JSON.parse(fs.readFileSync('data/greetings.json'));
 ```

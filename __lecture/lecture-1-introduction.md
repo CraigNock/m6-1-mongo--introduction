@@ -4,10 +4,10 @@
 
 ## Types of databases
 
-- Text database
-- Desktop database
-- Relational database (SQL)
-- Object-oriented databases (NoSQL)
+- Text database  //literally text file, don't really use
+- Desktop database   //excel etc
+- Relational database (SQL)  //mySQL table,row,column
+- Object-oriented databases (NoSQL)   //newest, objects
 
 ---
 
@@ -29,9 +29,9 @@ _\* stands for Humongous Database._
 
 ---
 
-- Stores data together in a document
+- Stores data together in a "document"
 - Gives us lots of flexibility
-- Allows you to get started before the exact bd requirements are known.
+- Allows you to get started before the exact db requirements are known.
 - Ability to adapt and improve later.
 
 ---
