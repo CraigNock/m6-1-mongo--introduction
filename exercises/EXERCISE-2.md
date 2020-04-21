@@ -217,7 +217,7 @@ For example, if there are only 12 values, but the query is `start=10&limit=5`. W
 
 ## Exercise 2.5 `.deleteOne()` document
 
-The `.deleteOne()` method functions very much like `insertOne()`. Look back at how you used that method and create a `deleteGreeting` function. Don't forget to validate that the document was in fact deleted; use `.deletedCount()` for that.
+The `.deleteOne()` method functions very much like `insertOne()`. Look back at how you used that method and create a `deleteGreeting` function. Don't forget to validate that the document was in fact deleted; use `.deletedCount` for that.
 
 The proper HTTP code for `DELETE` is `204`.
 
