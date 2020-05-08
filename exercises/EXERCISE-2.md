@@ -108,7 +108,7 @@ Instead, let's write a utility function that will migrate all of the data for us
 2. Add/Install the [`file-system`](https://www.npmjs.com/package/file-system) module.
 3. Require it at the top of the `batchImport.js` file.
 4. Declare a variable and assign it the contents of `greetings.json` like so:
-
+ 
 ```js
 const greetings = JSON.parse(fs.readFileSync('data/greetings.json'));
 ```
@@ -217,7 +217,7 @@ For example, if there are only 12 values, but the query is `start=10&limit=5`. W
 
 ## Exercise 2.5 `.deleteOne()` document
 
-The `.deleteOne()` method functions very much like `insertOne()`. Look back at how you used that method and create a `deleteGreeting` function. Don't forget to validate that the document was in fact deleted; use `.deletedCount()` for that.
+The `.deleteOne()` method functions very much like `insertOne()`. Look back at how you used that method and create a `deleteGreeting` function. Don't forget to validate that the document was in fact deleted; use `.deletedCount` for that.
 
 The proper HTTP code for `DELETE` is `204`.
 
